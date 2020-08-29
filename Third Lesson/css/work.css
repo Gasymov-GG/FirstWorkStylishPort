@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 18rem 0;
+
+}
+
+#first h1{
+color: #212529;
+font-size: 88px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#first h3{
+    color: #212529;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+#first a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1D809F;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.4s;
+    }
+
+    #first a:hover{
+        background-color: darkslategray ;
+    }
+
+    .myIcon:hover {
+        background-color: darkslategray ;
+    }
+
+
+
+#fourth {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 15rem 0;
+}
+#fourth h2{
+    color: #212529;
+    font-size: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 58px;
+
+}
+#fourth a{
+    background-color: #1d809f;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.4s;
+}
+
+#fourth a:hover{
+    background-color: darkslategrey ;
+
+}
+
+#second{
+    text-align: center;
+    padding: 7rem 0;
+}
+
+#second h2{
+    color: #212529;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+#second p{
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 4rem;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+#second a{
+    background-color: #23272b;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.4s;
+
+
+}
+
+
+#third{
+    background-color: #1d809f;
+    padding: 8rem 0;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.third-all .box{
+    width: 25%;
+    float: left;
+}
+
+.third-all .box i{
+    color: #1d809f;
+    background-color: white;
+    font-size: 35px;
+    padding: 35px;
+    border-radius: 100%;
+    
+}
+
+.third-all .box h4{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+    }
+
+.third-all .box p{
+    color: #FFFFFFB3;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+    }
+
+.third-text h3{
+    color: #ecb807;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.third-text h2{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.third-all{
+    margin-top: 30px;
+}
+
+#fifth{
+    
+    padding: 6rem 0;
+
+}
+
+.fifth-text{
+    text-align: center;
+}
+
+.fifth-text h3{
+    color: #ecb807;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.fifth-text h2{
+    font-size: 48px;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#fifth .boxes{
+    width: 50%;
+    float: left;
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.boxes .boxes-text{
+    position: absolute;
+    bottom: 20%;
+    left: 13%;
+    z-index: 999;
+
+}
+
+.boxes .boxes-text h2{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.boxes .boxes-text p{
+    color: #fff;
+    font-size: 19.2px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fifth-all{
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.fifth-all .boxes img{
+    width: 100%;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1d809f;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+
+.fifth-all .boxes:hover .overlay{
+    opacity: 0.8;
+
+}
+
+.fifth-all .boxes:hover{
+    transform: scale(.85);
+}
+
+.sixth{
+    background-color: #1d809f;
+    text-align: center;
+    padding: 10rem 0;
+    margin-top: 7rem;
+}
+
+.clear{
+    clear: both;
+}
+
+.sixth h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px;
+    }
+
+.a1{
+    background-color: #F8F9FA;
+    color: #212529;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.4s;
+}
+
+.a2{
+    background-color: #343A40;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 19px;
+    transition: 0.4s;
+}
+
+.sixth .a2:hover{
+    background-color: darkslategray ;
+
+}
+
+.sixth .a1:hover{
+    background-color: gray;
+}
+
+.social{
+    text-align: center;
+    padding: 90px 0;
+}
+
+.social i{
+    font-size: 25px;
+    color: #fff;
+    background-color: #1d809f;
+    border-radius: 100%;
+    padding: 15px 20px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.social i:hover{
+    background-color: darkslategray ;
+
+}
+
+.social p{
+    margin-top: 45px;
+    font-size: 12.8px;
+    color: #6c757D;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.myIcon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #343A4080;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#second a:hover{
+    background-color: darkslategray ;
+
+}
+
+
+
+
